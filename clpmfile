@@ -1,0 +1,15 @@
+;;; -*- Mode: common-lisp; -*-
+(:api-version "0.4")
+
+;; (:source "quicklisp"
+;;  :url "https://beta.quicklisp.org/dist/quicklisp.txt"
+;;  :type :quicklisp)
+(:source "quicklisp"
+ :type :ql-clpi
+ :url "https://quicklisp.common-lisp-project-index.org/")
+
+(:github "cl-raylib"
+ :path "longlene/cl-raylib"
+ :branch "master")
+
+(:asd "raylib-play.asd")
